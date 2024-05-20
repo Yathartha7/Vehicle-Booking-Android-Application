@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rentverify"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Enter details"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="35sp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Full name"
+            android:textSize="25sp"
+            android:ems="10">
+        </EditText>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Contact number"
+            android:textSize="25sp"
+            android:ems="10"
+            android:layout_marginTop="10dp">
+        </EditText>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Aadhar Card Number"
+            android:textSize="25sp"
+            android:ems="10"
+            android:layout_marginTop="20dp">
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Upload documents"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="35sp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* only in pdf format"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driving License"
+                android:textSize="25sp">
+            </TextView>
+            <ImageView
+                android:id="@+id/warningImage1"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/warning"
+                android:layout_marginLeft="10dp">
+            </ImageView>
+        </LinearLayout>
+        <Button
+            android:id="@+id/upload1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/black">
+        </Button>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indian Passport"
+                android:textSize="25sp">
+            </TextView>
+            <ImageView
+                android:id="@+id/warningImage2"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/warning"
+                android:layout_marginLeft="10dp">
+            </ImageView>
+        </LinearLayout>
+        <Button
+            android:id="@+id/upload2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:backgroundTint="@color/black">
+        </Button>
+    </LinearLayout>
+    <Button
+        android:id="@+id/rentpro"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#B32020"
+        android:text="PROCEED"
+        android:textSize="22sp"
+        android:textStyle="bold">
+    </Button>
+
+</LinearLayout>

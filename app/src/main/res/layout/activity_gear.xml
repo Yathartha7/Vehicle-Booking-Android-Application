@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".gear"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Gear"
+    android:textColor="@color/white"
+    android:textSize="40sp"
+    android:textStyle="bold"
+    android:paddingTop="10dp"
+    android:paddingLeft="20dp"
+    android:paddingBottom="10dp"
+    android:background="@color/black"
+    android:layout_marginBottom="10dp">
+</TextView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/dominar"
+        android:layout_marginRight="10dp">
+    </ImageView>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bajaj Dominar 400"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:paddingLeft="5dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seating Capacity : 2"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mileage : 28 kmpl"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rent : 1,500/day"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/gear1"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/go"
+        android:scaleType="fitXY"
+        android:backgroundTint="#008040">
+    </ImageButton>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/royalenfield"
+        android:layout_marginRight="10dp">
+    </ImageView>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Royal Enfield 350"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:paddingLeft="5dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seating Capacity : 2"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mileage : 25 kmpl"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rent : 1,500/day"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/gear2"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/go"
+        android:scaleType="fitXY"
+        android:backgroundTint="#008040">
+    </ImageButton>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/avenger"
+        android:layout_marginRight="10dp">
+    </ImageView>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bajaj Avenger 220"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:paddingLeft="5dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seating Capacity : 2"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mileage : 25 kmpl"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rent : 1,000/day"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/gear3"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/go"
+        android:scaleType="fitXY"
+        android:backgroundTint="#008040">
+    </ImageButton>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ktm"
+        android:layout_marginRight="10dp">
+    </ImageView>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KTM Duke 200"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:paddingLeft="5dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seating Capacity : 2"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mileage : 30 kmpl"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rent : 900/day"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/gear4"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/go"
+        android:scaleType="fitXY"
+        android:backgroundTint="#008040">
+    </ImageButton>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/yamaha"
+        android:layout_marginRight="10dp">
+    </ImageView>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yamaha FZ"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:paddingLeft="5dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seating Capacity : 2"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mileage : 30 kmpl"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rent : 1,000/day"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/gear5"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/go"
+        android:scaleType="fitXY"
+        android:backgroundTint="#008040">
+    </ImageButton>
+</LinearLayout>
+</LinearLayout>
